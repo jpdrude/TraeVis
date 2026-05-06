@@ -1,0 +1,57 @@
+# Unity generated directories
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emory[Cc]aptures/
+[Rr]ecordings/
+
+# Unity local user settings
+[Uu]ser[Ss]ettings/
+
+# Unity crash reports
+sysinfo.txt
+*.stackdump
+
+# Visual Studio / VS Code artifacts
+.vs/
+*.sln
+*.csproj
+*.unityproj
+*.pidb
+*.suo
+*.tmp
+*.user
+*.userprefs
+ExportedObj/
+
+# JetBrains Rider
+.idea/
+*.rider.user
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# -------------------------------------------------------
+# PROPRIETARY ASSET STORE PACKAGES
+# The following assets are governed by the Unity Asset
+# Store EULA and must NOT be redistributed publicly.
+# Re-import them from the Asset Store after cloning.
+# -------------------------------------------------------
+
+# TriLib 2 - 3D Model Importer (Asset Store EULA)
+Assets/TriLib/
+Assets/TriLib.meta
+
+# OccaSoftware Wireframe Shader (proprietary, no open-source license)
+Packages/com.occasoftware.wireframe-shader/
+Packages/com.occasoftware.wireframe-shader.meta

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Archive\\\\02_Projekte\\\\2025\\\\Aarhus\\\\TraeVis\" -Directory)",
+      "Bash(Select-Object -ExpandProperty Name)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Archive\\\\02_Projekte\\\\2025\\\\Aarhus\\\\TraeVis\\\\Assets\" -Depth 1 | Where-Object { $_.PSIsContainer } | Select-Object -ExpandProperty Name)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Archive\\\\02_Projekte\\\\2025\\\\Aarhus\\\\TraeVis\" -Force | Select-Object Name, @{n='Type';e={if\\($_.PSIsContainer\\){'Directory'}else{'File'}}} | Format-Table -AutoSize)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Archive\\\\02_Projekte\\\\2025\\\\Aarhus\\\\TraeVis\" -Recurse -Filter \"*.cs\")",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "PowerShell(head *)",
+      "Bash(git *)"
+    ]
+  }
+}
