@@ -1,8 +1,8 @@
 # TraeVis
 
-An augmented reality application for mobile devices that lets you load 3D models and align them to physical printed image markers in real space.
+An augmented reality application for mobile devices that lets you load 3D models and align them to physical printed image markers in real space. 3D models can be sequentially built up in physical surroundings.
 
-Developed at Aarhus University.
+Developed for the TraeVis project at Aarhus University.
 
 ## What it does
 
